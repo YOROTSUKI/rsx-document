@@ -50,4 +50,24 @@ RSX目前似乎仅支持GUI模式而不支持命令行模式，所以你可能�
 
     -.rrig,-.rseq,-txtr/,-uiia,-dtbl,-art\,rmdl,valk
 
+##### 资产列表
+
+    左侧:资产类型
+        arig
+        mdl
+        txtr
+        stgs
+        .....
+    右侧:资产在游戏中的路径
+
+##### 我导出的资产在那?
+
+首先,所有导出的文件都会存储在rsx.exe同目录的exported_files的文件夹内。
+
+首先你要确定你导出的文件是什么类型的，比如：mdl_
+
+然后打开exported_files的mdl_文件夹，根据该资产的路径依次打开mdl_中的文件夹
+![image](./image/stample.png)
+![image](./image/stample2.png)
+
         
